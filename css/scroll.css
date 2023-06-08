@@ -1,0 +1,27 @@
+.card .front::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+  
+  .card .front::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Border radius of the thumb */
+  }
+  
+  .card .front::-webkit-scrollbar-track {
+    background-color: #f2f2f2; /* Color of the scrollbar track */
+    border-radius: 4px; /* Border radius of the track */
+  }
+  
+  .card .back::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+  
+  .card .back::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Border radius of the thumb */
+  }
+  
+  .card .back::-webkit-scrollbar-track {
+    background-color: #f2f2f2; /* Color of the scrollbar track */
+    border-radius: 4px; /* Border radius of the track */
+  }

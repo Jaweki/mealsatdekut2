@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/header-footer.css">
+        <link rel="stylesheet" href="./css/scroll.css">
+        <link rel="stylesheet" href="./css/loader.css">
+        <link rel="stylesheet" href="./css/loadBtn.css">
+
+        <script type="text/javascript" src="./scripts/load.js" ></script>
+        <script type="text/javascript" src="./scripts/finalize.js"></script>
+        <script type="text/javascript" src="./scripts/rotate.js" defer></script>
+
+        <link  rel="icon" href="./images/dekut-logo.jpg" type="image/x-icon">
+        <title>Dekut Meals</title>
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="label">
+                <div class="logo">
+                    <img src="./images/dekut-logo.jpg" title="Dekut Logo">
+                </div>
+                <div class="pageName">
+                    <h1>DEKUT MEALS</h1>
+                </div>
+            </div>
+
+            <div class="managers-info">
+                <div class="managers-profile">
+                    <img src="./images/managers-profile.png" title="mangers profile photo">
+                </div>
+                <div class="managers-name">
+                    <h2>Name</h2>
+                </div>
+            </div>
+        </header>
+
+<div class="background"></div>
+
+        <div class="card">
+            <div class="front"> 
+                <script>
+                //    loadFood('.front');
+                </script>   
+            </div>
+
+            <div class="back">
+                <script>
+                </script>
+            </div>
+            
+            <input type="button" id="frontButton" value="next" onclick="unshift(); rotateFrontCard(); orderDetails('.back'); ">
+            <input type="button" id="backButton" value="proceed" onclick="shift(); rotateBackCard(); transact_()">
+        </div>
+
+        <script>
+            loadFood('.front');
+        </script>
+        <footer class="footer">
+            <div class="author">Created by Jack Weru</div>
+            <div class="copyright">&copy; JAWEKI GROUP. All rights reserved</div>
+            <div class="calendar">June 2023</div>
+        </footer>
+    </body>
+</html>
